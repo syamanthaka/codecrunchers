@@ -2,5 +2,6 @@
 
 This is the repository that holds code of the team Code Crunchers, whenever they participate in Coding Dojos.
 
-#
-Virtual coding dojo
+## Languages used
+Multiple programming languages have been used for various events in this repo.
+
