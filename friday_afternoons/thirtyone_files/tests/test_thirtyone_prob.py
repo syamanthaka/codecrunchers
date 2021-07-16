@@ -26,11 +26,20 @@ class TestCombinations:
         c_obj = combo()
         assert c_obj.allcombos(coin_list_simple, max_val_simple) == 10
 
-    def test_allcombos(self, coin_list, max_val):
+    # def test_allcombos(self, coin_list, max_val):
+    #     c_obj = combo()
+    #     t1 = time.time()
+    #     result = c_obj.allcombos(coin_list, max_val)
+    #     t2 = time.time()
+
+    #     assert result == 73682
+    #     assert t2-t1 <= 20
+
+    def test_indexmethod(self, coin_list, max_val):
         c_obj = combo()
         t1 = time.time()
-        result = c_obj.allcombos(coin_list, max_val)
+        result = c_obj.indexmethod(coin_list, max_val)
         t2 = time.time()
 
         assert result == 73682
-        assert t2-t1 <= 20
+        assert t2-t1 <= 1

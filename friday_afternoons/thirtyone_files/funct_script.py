@@ -6,4 +6,5 @@ max_val = 200
 
 # combo.one_combo()
 c_obj = combo()
-print(c_obj.allcombos(coin_list, max_val))
+# print(c_obj.allcombos(coin_list, max_val))
+print(c_obj.indexmethod(coin_list, max_val))
